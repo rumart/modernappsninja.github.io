@@ -172,7 +172,8 @@ img {
 a,
 a:hover,
 a:focus {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #717074; }
 
 a {
   color: inherit; }
@@ -188,10 +189,10 @@ select {
     outline: 0; }
 
 a:hover {
-  color: #f4f8fa; }
+  color: #000000; }
 
 a.text-primary:hover {
-  color: #f4f8fa !important; }
+  color: #717074 !important; }
 
 a.text-light:hover {
   color: #f4f8fa !important; }
@@ -551,7 +552,7 @@ link:focus,
         display: block; } }
 .navbar .dropdown-item {
   position: relative;
-  color: #000;
+  color: #717074;
   transition: .2s ease;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif; }
@@ -561,7 +562,7 @@ link:focus,
   .navbar .dropdown-item:not(:last-child) {
     margin-bottom: 10px; }
   .navbar .dropdown-item:hover {
-    color: #f4f8fa;
+    color: #000000;
     background: transparent; }
 
 .hero-section {
